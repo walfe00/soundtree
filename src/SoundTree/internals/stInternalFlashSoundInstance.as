@@ -25,6 +25,7 @@ package SoundTree.internals
 	import flash.events.*;
 	import flash.media.*;
 	import SoundTree.*;
+	import SoundTree.objects.stFlashSound;
 	use namespace st_friend;
 	
 	public class stInternalFlashSoundInstance

@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-package SoundTree
+package SoundTree.objects
 {
 	import flash.events.*;
 	import flash.media.*;

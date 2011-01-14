@@ -25,7 +25,7 @@ package SoundTree
 	import flash.media.SoundMixer;
 	import flash.media.SoundTransform;
 	
-	public class stGlobal 
+	public class st_global 
 	{
 		public static function get volume():Number
 			{  return SoundMixer.soundTransform.volume;  }

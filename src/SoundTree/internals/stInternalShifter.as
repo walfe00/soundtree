@@ -25,9 +25,8 @@ package SoundTree.internals
 	import flash.events.TimerEvent;
 	import flash.utils.Timer;
 	import SoundTree.events.stSoundEvent;
+	import SoundTree.objects.stSoundObject;
 	import SoundTree.st_friend;
-	import SoundTree.stFlashSound;
-	import SoundTree.stSoundObject;
 	use namespace st_friend;
 	
 	public class stInternalShifter
