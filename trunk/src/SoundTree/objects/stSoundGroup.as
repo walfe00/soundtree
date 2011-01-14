@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-package SoundTree
+package SoundTree.objects
 {
 	import SoundTree.st_friend;
 	use namespace st_friend;

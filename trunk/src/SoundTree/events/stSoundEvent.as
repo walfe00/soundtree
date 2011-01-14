@@ -23,6 +23,7 @@
 package SoundTree.events
 {
 	import flash.events.Event;
+	import SoundTree.objects.stSoundObject;
 	import SoundTree.st_friend;
 	use namespace st_friend;
 	
