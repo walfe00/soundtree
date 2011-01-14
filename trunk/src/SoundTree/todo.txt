@@ -1,0 +1,20 @@
+- have a playSequential or somehting function for group
+
+- have a play next in group
+
+- pre-cache option?
+
+- events
+
+- get rid of public to private map and just set variables with _ t thebeginning
+
+
+
+direct query...have to go through the tree manully every time a property is requested (example center of mass in qb2Group, playing in stSoundGroup)
+
+incremental properties...these increment/decrement based on child nodes flushing their changes up the tree (mass in qb2Tangible, numInstances/numBytes/length in stSoundObject)
+
+inherit properties...properties that are set either explicitly by the user (and propograted down the tree if so), or implictly set by virtue of an object being added to a container that has some property(ies) explicitly set, or has an ancestor who getssome property explicitly set and therefore it is cascadaded down
+
+the above can be broken down further into properties that make immediate active changes to an object(s) in the tree, and therefore need a setPropertyImplicitly type of function, and passive properties that just describe state or are only needed when calling a method of an object to do something
+
