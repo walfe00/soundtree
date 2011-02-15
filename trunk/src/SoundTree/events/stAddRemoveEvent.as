@@ -23,8 +23,8 @@
 package SoundTree.events 
 {
 	import flash.events.Event;
+	import SoundTree.objects.stSoundObject;
 	import SoundTree.st_friend;
-	import SoundTree.stSoundObject;
 	use namespace st_friend;
 	
 	public class stAddRemoveEvent extends Event 
