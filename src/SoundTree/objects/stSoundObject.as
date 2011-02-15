@@ -206,7 +206,7 @@ package SoundTree.objects
 					for ( var i:int = 0; i < asGroup.numObjects; i++) 
 					{
 						var ithObject:stSoundObject = asGroup.getObjectAt(i);
-						queue.unshift(ithObject as stSoundObject);
+						queue.push(ithObject as stSoundObject);
 					}
 				}
 			}
